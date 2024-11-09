@@ -1,0 +1,84 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full page background */
+body {
+    font-family: Arial, sans-serif;
+    background: url('login1.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the login container */
+.login-container {
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+/* Heading style */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Input container */
+.input-container {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Input fields */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Message under the button */
+#loginMessage {
+    text-align: center;
+    margin-top: 15px;
+    color: #ff0000; /* Red color for error message */
+    font-size: 14px;
+}
